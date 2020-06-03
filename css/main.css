@@ -1,43 +1,66 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+html{
+  height: 100%;
+  width: 100%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+body{
+  background-color: rgb(35,35,35);
+  font-family:      'Asap', sans-serif;
+  color:	    #D0D0D0;
+  padding-top:      18px;
+  padding-bottom:   18px;
+  padding-right:    10px;
+  margin: 	    15px;
+  width:            100%;
+  top: 		    0;
+  max-width:	    100%;
+  overflow-x:	    hidden;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+p{
+  margin-top: 18px;
+  padding-top: 0px;
+  padding-right: 24px;
+  color: white;
 }
-a {
-    text-decoration: none;
-    color: #999;
+a{
+  color: white;  
+  text-decoration: none;
 }
-a:hover {
-    text-decoration: underline;
+b{
+  color: #E04343;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+h3{
+  color: white;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+ul{
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 0px;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+li{
+  margin-bottom: 2px;
 }
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.icon{
+  width: 30px;  
 }
-
-ul.posts li {
-    list-style: none;
+.entry{
+  padding-left:24px;
+}
+#footer{
+  padding-bottom: 24px;
+}
+#anim{
+  left: 0px;
+  top: 0px;
+  bottom: 0;
+  right: 0;
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  z-index: -20;
+  image-rendering: -moz-crisp-edges;    /* Firefox */
+  image-rendering: -webkit-crisp-edges; /* Webkit (Safari) */
+  image-rendering: pixelated;           /* Chrome */
 }
